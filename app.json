@@ -1,0 +1,65 @@
+
+{
+  "name": "Chat-Gpt",
+  "description": "A Telegram open-ai Chatgpt bot.",
+  "logo": "https://telegra.ph/file/5632b2e02f0a72431ed97.jpg",
+  "keywords": [
+    "telegram", "chatgpt",
+    "python",
+    "pyrogram",
+    "DAXXTEAM"   
+  ],
+  "stack": "heroku-20",
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "env": {
+    "BOT_TOKEN": { "description": "telegram bot token here",
+      "required": true
+    },
+    "OWNER_USERNAME": {
+      "description": "Owner Username without @",
+      "required": true
+    },
+    "OPENAI_KEY": {
+      "description": "OPEN-AI key here: extract from https://platform.openai.com/account/api-keys",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "telegram bot username here without @",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "Simple Bot-name. Do not use Modified Text..",
+      "required": true
+    },
+    "SUPPORT_GRP": {
+      "description": "Your Support Group without @",
+      "required": true
+    },
+    "STKR": {
+      "description": "Sticker for start", "required": true
+    },
+    "START_IMG": {
+      "description": "Start Image For Bot.",
+      "required": true
+    },
+    "UPDATE_CHNL": {
+      "description": "Your Updates Channel without @",
+      "required": true
+    },
+    "API_ID": { "description": "telegram api id here",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "telegram api hash here",
+      "required": true
+    }
+  },
+  "repository": "https://github.com/DAXXTEAM/DAXXCHATGPT"
+}
