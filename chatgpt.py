@@ -263,7 +263,7 @@ if __name__ == "__main__":
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
-    print(f"""JOIN  @Iam_Daxx
+    print(f"""JOIN [ @Iam_Daxx]
 GIVE STAR TO THE REPO 
  {BOT_NAME} ɪs ᴀʟɪᴠᴇ!  
     """)
