@@ -31,7 +31,7 @@
       "required": true
     },
     "BOT_USERNAME": {
-      "description": "𝗕𝗢𝗧 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 𝗗𝗔𝗟 𝗗𝗘 @",
+      "description": "𝗕𝗢𝗧 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 𝗗𝗔𝗟 𝗗𝗘 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 @",
       "required": true
     },
     "BOT_NAME": {
@@ -39,7 +39,7 @@
       "required": true
     },
     "SUPPORT_GRP": {
-      "description": "𝗚𝗥𝗢𝗨𝗣 𝗡𝗔𝗠𝗘 @",
+      "description": "𝗚𝗥𝗢𝗨𝗣 𝗡𝗔𝗠𝗘 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 @",
       "required": true
     },
     "STKR": {
