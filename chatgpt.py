@@ -248,7 +248,7 @@ async def chat(bot, message):
 s = bytearray.fromhex("68 74 74 70 73 3A 2F 2F 74 2E 6D 65 2F 49 61 6D 5F 44 61 78 78").decode()
 
 if SOURCE != s:
-    print("So sad, you have changed source, change it back to ` https://github.com/DAXXTEAM/DAXXCHATGPT `  else I won't work")
+    print("𝗸𝗮𝗿 𝗹𝗶𝘆𝗮 𝗲𝗱𝗶𝘁 𝗺𝗶𝗹 𝗴𝘆𝗮 𝘀𝘂𝗸𝗼𝗼𝗻 𝗷𝗲𝘀𝗮 𝘁𝗵𝗮 𝘄𝗲𝘀𝗮 𝗸𝗮𝗿𝗱𝗲 ` https://github.com/DAXXTEAM/DAXXCHATGPT `  𝗻𝗵𝗶 𝘁𝗼 𝗷𝗮𝗸𝗲 𝗠𝗿𝗱𝗮𝘅𝘅 𝗸𝗼 𝗽𝗮𝗽𝗮 𝗯𝗼𝗹 𝗱𝗼 𝘁𝗵𝗶𝗸 𝗸𝗮𝗿 𝗱𝗲𝗴𝗮")
     sys.exit(1)  
 
 
@@ -264,7 +264,7 @@ if __name__ == "__main__":
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
     print(f"""JOIN [ @Iam_Daxx]
-GIVE STAR TO THE REPO 
+𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 𝗗𝗔𝗫𝗫 𝗥𝗘𝗣𝗢 
  {BOT_NAME} ɪs ᴀʟɪᴠᴇ!  
     """)
     idle()
