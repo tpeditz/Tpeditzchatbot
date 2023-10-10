@@ -1,7 +1,7 @@
 
 {
-  "name": "Chat-Gpt",
-  "description": "A Telegram open-ai Chatgpt bot.",
+  "name": "𝗖𝗛𝗔𝗧𝗚𝗣𝗧𝗕𝗢𝗧",
+  "description": "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗖𝗛𝗔𝗧 𝗚𝗣𝗧 𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗗𝗔𝗫𝗫.",
   "logo": "https://telegra.ph/file/5632b2e02f0a72431ed97.jpg",
   "keywords": [
     "telegram", "chatgpt",
@@ -19,45 +19,45 @@
     }
   ],
   "env": {
-    "BOT_TOKEN": { "description": "telegram bot token here",
+    "BOT_TOKEN": { "description": "𝗕𝗢𝗧 𝗧𝗢𝗞𝗘𝗡 𝗗𝗔𝗟 𝗡𝗔𝗔 𝗝𝗛𝗔𝗔𝗧𝗛𝗨",
       "required": true
     },
     "OWNER_USERNAME": {
-      "description": "Owner Username without @",
+      "description": "𝗧𝗘𝗥𝗔 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 @",
       "required": true
     },
     "OPENAI_KEY": {
-      "description": "OPEN-AI key here: extract from https://platform.openai.com/account/api-keys",
+      "description": "𝗢𝗣𝗘𝗡 𝗔𝗜 𝗔𝗣𝗜 𝗞𝗘𝗬 ",
       "required": true
     },
     "BOT_USERNAME": {
-      "description": "telegram bot username here without @",
+      "description": "𝗕𝗢𝗧 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 𝗗𝗔𝗟 𝗗𝗘 @",
       "required": true
     },
     "BOT_NAME": {
-      "description": "Simple Bot-name. Do not use Modified Text..",
+      "description": "𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 𝗧𝗢 𝗗𝗔𝗟 𝗗𝗘 𝗕𝗛𝗔𝗜 𝗣𝗛𝗟𝗘.",
       "required": true
     },
     "SUPPORT_GRP": {
-      "description": "Your Support Group without @",
+      "description": "𝗚𝗥𝗢𝗨𝗣 𝗡𝗔𝗠𝗘 @",
       "required": true
     },
     "STKR": {
-      "description": "Sticker for start", "required": true
+      "description": "𝗦𝗧𝗞𝗥 ", "required": true
     },
     "START_IMG": {
-      "description": "Start Image For Bot.",
+      "description": "𝗦𝗧𝗔𝗥𝗧 𝗕𝗢𝗧 𝗨𝗥𝗟 𝗗𝗔𝗟𝗘 𝗗𝗘 𝗟𝗢𝗡𝗗𝗨.",
       "required": true
     },
     "UPDATE_CHNL": {
-      "description": "Your Updates Channel without @",
+      "description": "𝗬𝗔𝗛𝗔 𝗧𝗘𝗥𝗔 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗗𝗔𝗟 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 @",
       "required": true
     },
-    "API_ID": { "description": "telegram api id here",
+    "API_ID": { "description": "𝗔𝗣𝗜 𝗜𝗗 𝗬𝗔𝗛𝗔 𝗣",
       "required": true
     },
     "API_HASH": {
-      "description": "telegram api hash here",
+      "description": "𝗔𝗣𝗜 𝗛𝗔𝗦𝗛 𝗗𝗔𝗟 𝗗𝗘 𝗕𝗔𝗦𝗦 𝗞𝗛𝗔𝗧𝗔𝗠",
       "required": true
     }
   },
